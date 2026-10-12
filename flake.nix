@@ -11,7 +11,6 @@
           inherit system;
         }));
 
-    # Outils des contrôles, communs au devShell et à l'image de CI
     checkTools = pkgs:
       with pkgs; [
         pre-commit
